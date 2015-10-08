@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # crayon-atom theme
 
 This is a syntax theme is a psudo-port of the crayon color scheme for vim found [here](https://github.com/dylanaraps/crayon)
