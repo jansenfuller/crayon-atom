@@ -1,7 +1,7 @@
 {
   "name": "crayon-atom",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Port of the crayon color scheme by dylanaraps to Atom made for your pleasure",
   "keywords": [
     "syntax",
