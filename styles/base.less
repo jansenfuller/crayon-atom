@@ -68,8 +68,9 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .entity {
-  &.name.type {
+  &.name {
     color: @red;
+    text-decoration: bold;
   }
 
   &.other.inherited-class {
@@ -102,7 +103,7 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .constant {
-  color: @light-orange;
+  color: @yellow;
 
   &.character.escape {
     color: @cyan;
@@ -302,6 +303,10 @@ atom-text-editor .search-results .marker.current-result .region,
   &.raw.inline {
     color: @green;
   }
+}
+
+.source {
+  color: @blue;
 }
 
 .source.gfm .markup {
