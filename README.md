@@ -5,15 +5,21 @@ This is my best attempt at trying to manually convert dylanaraps crayon color sc
 ### Instalation:
 > apm install crayon-atom
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/palette.png)
 
-##### HTML
-![HTML](http://i.imgur.com/egBU927.png)
+## Screenshots
+The font used in the screenshots is [envypn](https://aur.archlinux.org/packages/envypn-font/) by Ypnose.
 
-##### Ruby
-![Ruby](http://i.imgur.com/01M2o3H.png)
+#### Markdown
+![](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/markdown.png)
 
-##### CSS
-![CSS](http://i.imgur.com/Qm19RuE.png)
+#### HTML
+![HTML](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/html.png)
+
+#### Ruby
+![Ruby](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/ruby.png)
+
+#### CSS
+![CSS](https://raw.githubusercontent.com/dylanaraps/crayon/master/screenshots/scss.png)
 
 Credit goes to [dylanaraps](https://github.com/dylanaraps) for the amazing color scheme.
