@@ -164,6 +164,8 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .punctuation {
+  color: @white;
+
   &.definition {
     &.comment {
       color: @gray03;
@@ -173,7 +175,7 @@ atom-text-editor .search-results .marker.current-result .region,
     &.variable,
     &.parameters,
     &.array {
-      color: @syntax-text-color;
+      color: @white;
     }
 
     &.heading,
@@ -193,7 +195,6 @@ atom-text-editor .search-results .marker.current-result .region,
   &.section.embedded {
     color: @white;
   }
-
 }
 
 .support {
@@ -259,6 +260,15 @@ atom-text-editor .search-results .marker.current-result .region,
     background-color: @gray;
     color: @syntax-text-color;
   }
+
+  &.delimiter {
+    color: @syntax-text-color
+  }
+
+  &.import.js,
+  &.brace {
+    color: @white;
+  }
 }
 
 .none {
@@ -306,7 +316,11 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .source {
-  color: @blue;
+  color: @syntax-text-color;
+
+  &.js {
+    color: @blue;
+  }
 }
 
 .source.gfm .markup {
